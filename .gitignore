@@ -1,0 +1,9 @@
+# .gitignore
+
+# Pythonのコンパイル済みキャッシュファイル
+__pycache__/
+*.py[cod]
+
+# 環境設定ファイルやOSのファイル
+.env
+.DS_Store

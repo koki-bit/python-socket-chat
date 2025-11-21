@@ -43,7 +43,7 @@ python client.py
 
 ## ⚙️ Architecture(仕組み)
 本アプリケーションは、以下のようなアーキテクチャで動作しています。
-1. Server:`socket.bind`と`listen`で特定のポートっを監視
+1. Server:`socket.bind`と`listen`で特定のポートを監視
    ・クライアント接続ごとに新しい**Thread**を生成し、独立してメッセージを待ち受けます。
    ・受信したメッセージは、接続中の全クライアントへブロードキャストされます。
 2. Client:
